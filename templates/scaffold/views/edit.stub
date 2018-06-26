@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('$FRAME$')
 
 @section('content')
 <div class="portlet light bordered">
