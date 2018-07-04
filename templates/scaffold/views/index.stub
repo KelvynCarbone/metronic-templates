@@ -28,8 +28,7 @@
         @include('flash::message')
     </div>
     <div class="m-portlet__body">
-        @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.table')
+        @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.table')
     </div>
 </div>
 @endsection
-
