@@ -23,7 +23,7 @@
             <div class="row">
                 {!! Form::open(['route' => '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store', 'class' => 'form-control']) !!}
 
-                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.fields')
+                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.fields')
 
                  {!! Form::close() !!}
             </div>
