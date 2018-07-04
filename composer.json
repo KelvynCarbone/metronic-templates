@@ -9,6 +9,12 @@
         "templates",
         "bootstrap"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/boxfrommars/rutorika-laravel-html"
+        }
+    ],
     "license": "MIT",
     "authors": [
         {
