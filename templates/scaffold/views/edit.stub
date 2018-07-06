@@ -1,5 +1,14 @@
 @extends('$FRAME$')
 
+@section('head')
+    @parent
+    $FORM_CSS$
+@endsection
+@section('scripts')
+    @parent
+    $FORM_JS$
+@endsection
+
 @section('content')
  <div class="m-portlet light m-portlet--bordered-semi">
     <div class="m-portlet__head">
@@ -29,4 +38,9 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('ready_scripts')
+    @parent
+    $READY_SCRIPTS$
 @endsection
