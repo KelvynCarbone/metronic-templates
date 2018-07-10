@@ -18,7 +18,7 @@
                     <i class="flaticon-multimedia"></i>
                 </span>
                 <h3 class="m-portlet__head-text text-uppercase">
-                    EDIÇÃO $MODEL_NAME$
+                    EDIÇÃO DE $CRUD_TITLE$
                     <small class="text-muted"></small>
                 </h3>
             </div>

@@ -9,7 +9,7 @@
                     <i class="la la-thumb-tack"></i>
                 </span>
                 <h3 class="m-portlet__head-text text-uppercase">
-                    $MODEL_NAME_PLURAL$
+                    $CRUD_TITLE$
                     <small class="text-muted"></small>
                 </h3>
             </div>

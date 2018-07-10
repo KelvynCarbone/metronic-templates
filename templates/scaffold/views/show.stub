@@ -9,7 +9,7 @@
                         <i class="flaticon-multimedia"></i>
                     </span>
                     <h3 class="m-portlet__head-text text-uppercase">
-                        EXIBIÇÃO $MODEL_NAME$
+                        VISUALIZACÃO - $CRUD_TITLE$
                         <small class="text-muted"></small>
                     </h3>
                 </div>
