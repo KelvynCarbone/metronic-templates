@@ -1,4 +1,6 @@
 <!-- $FIELD_NAME_TITLE$ Field -->
-<div class="form-group col-sm-6">
+<div class=row>
+<div class="col-md-4 form-group">
    {!! Form::datetimeField('$FIELD_NAME$', '$FIELD_NAME$', null, ['class'=>'datetime-mask']) !!}
+</div>
 </div>
