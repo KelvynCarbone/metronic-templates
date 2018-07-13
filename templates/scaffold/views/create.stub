@@ -7,6 +7,7 @@
 @section('scripts')
     @parent
     $FORM_JS$
+    $TEXT_EDITOR_PLUGIN$
 @endsection
 
 @section('content')
@@ -43,4 +44,5 @@
 @section('ready_scripts')
     @parent
     $READY_SCRIPTS$
+    $TEXT_EDITOR_SCRIPT$
 @endsection
