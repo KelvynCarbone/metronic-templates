@@ -1,8 +1,10 @@
+@section('head')
+$DATATABLE_CSS$
+@endsection
+
 {!! $dataTable->table(['width' => '100%']) !!}
 
 @section('scripts')
-    <link rel="stylesheet" href="$BOOTSTRAP-BUTTONS-CSS$">
-    <script src="$BOOTSTRAP-BUTTONS-JS$"></script>
-    <script src="vendor/datatables/buttons.server-side.js"></script>
+    $DATATABLE_JS$
     {!! $dataTable->scripts() !!}
 @endsection
