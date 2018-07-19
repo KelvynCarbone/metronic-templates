@@ -9,7 +9,7 @@
                         <i class="flaticon-multimedia"></i>
                     </span>
                     <h3 class="m-portlet__head-text text-uppercase">
-                        VISUALIZACÃO - $CRUD_TITLE$
+                        VISUALIZAÇÃO - $CRUD_TITLE$
                         <small class="text-muted"></small>
                     </h3>
                 </div>
@@ -20,10 +20,8 @@
             @include('metronic-templates::common.errors')
         </div>
         <div class="m-portlet__body form">
-                <div class="row" style="padding-left: 20px">
                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.show_fields')
-                   <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-default">Back</a>
-                </div>
+                   <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-default">Voltar</a>
             </div>
         </div>
 @endsection

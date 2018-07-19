@@ -1,5 +1,10 @@
 <!-- $FIELD_NAME_TITLE$ Field -->
-<div class="form-group">
-    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
-    <p>{!! $$MODEL_NAME_CAMEL$->$FIELD_NAME$ !!}</p>
+
+<div class="row">
+    <div class="col-md-12">{!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}</div>
+    <div class="col-md-12">
+        <div class="alert m-alert m-alert--default" role="alert">
+            {!! $$MODEL_NAME_CAMEL$->$FIELD_NAME$ !!}
+        </div>
+    </div>
 </div>
