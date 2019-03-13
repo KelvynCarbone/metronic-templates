@@ -1,4 +1,6 @@
+<div class="row">
 $FIELDS$
+</div>
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
