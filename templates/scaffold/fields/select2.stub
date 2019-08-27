@@ -2,7 +2,7 @@
 <div class="col-md-12 row">
     <div class="form-group col-md-6">
         {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:') !!}
-        {!! Form::select2('$FIELD_NAME$', [], isset($$MODEL_NAME_CAMEL$) ? [$$MODEL_NAME_CAMEL$->$FIELD_NAME$]: null , ['select2' => ['ajax--url' => '/$RELATION_PATH$/select-search']]) !!}
+        {!! Form::select2('$FIELD_NAME$', [], isset($$MODEL_NAME_CAMEL$) ? [$$MODEL_NAME_CAMEL$->$FIELD_NAME$]: null , ['select2' => ['ajax-url' => '/$RELATION_PATH$/select-search']]) !!}
     </div>
     <div class="col-md-6" style="margin-top:5px;">
         <br>
